@@ -7,7 +7,6 @@
   ======================================================== -->
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -34,16 +33,13 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
-
-
 </head>
-
 <body class="index-page">
 
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center">
+      <a href="index.php" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
         <h1 class="sitename">Mestre Advogados</h1> <span>.</span>
@@ -51,8 +47,8 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">Sobre Nós</a></li>
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#cases">Casos</a></li>
           <li><a href="services.html">Áreas de Atuação</a></li>
           <li><a href="projects.html">Projetos</a></li>
           <li><a href="blog.html">Blog</a></li>
@@ -79,7 +75,6 @@
       </nav>
     </div>
   </header>
-
   <main class="main">
 
     <!-- Hero Section -->
@@ -89,7 +84,7 @@
         <div class="container">
           <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
             <div class="col-lg-6 text-center">
-              <h2>Welcome to UpConstruction</h2>
+              <h2>Bem Vindo(a) a Mestre Advogados</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               <a href="#get-started" class="btn-get-started">Get Started</a>
             </div>
@@ -131,68 +126,12 @@
 
     </section><!-- /Hero Section -->
 
-    <!-- Get Started Section -->
-    <section id="get-started" class="get-started section">
-
-      <div class="container">
-
-        <div class="row justify-content-between gy-4">
-
-          <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
-            <div class="content">
-              <h3>Minus hic non reiciendis ea possimus at quia.</h3>
-              <p>Rem id rerum. Debitis deserunt quidem delectus expedita ducimus dolor. Aut iusto ipsa. Eos ipsum nobis ipsa soluta itaque perspiciatis fuga ipsum perspiciatis. Eum amet fugiat totam nisi possimus ut delectus dicta.
-              </p>
-              <p>Aliquam velit deserunt autem. Inventore et saepe. Tenetur suscipit eligendi labore culpa eos. Deserunt porro magni qui necessitatibus dolorem at animi cupiditate.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-5" data-aos="zoom-out" data-aos-delay="200">
-            <form action="forms/quote.php" method="post" class="php-email-form">
-              <h3>Get a quote</h3>
-              <p>Vel nobis odio laboriosam et hic voluptatem. Inventore vitae totam. Rerum repellendus enim linead sero park flows.</p>
-              <div class="row gy-3">
-
-                <div class="col-12">
-                  <input type="text" name="name" class="form-control" placeholder="Name" required="">
-                </div>
-
-                <div class="col-12 ">
-                  <input type="email" class="form-control" name="email" placeholder="Email" required="">
-                </div>
-
-                <div class="col-12">
-                  <input type="text" class="form-control" name="phone" placeholder="Phone" required="">
-                </div>
-
-                <div class="col-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
-                </div>
-
-                <div class="col-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your quote request has been sent successfully. Thank you!</div>
-
-                  <button type="submit">Get a quote</button>
-                </div>
-
-              </div>
-            </form>
-          </div><!-- End Quote Form -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Get Started Section -->
-
-    <!-- Constructions Section -->
-    <section id="constructions" class="constructions section">
+    <!-- Cases Section -->
+    <section id="cases" class="cases section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Constructions</h2>
+        <h2>Casos Recentes</h2>
         <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
       </div><!-- End Section Title -->
 
@@ -268,7 +207,7 @@
 
       </div>
 
-    </section><!-- /Constructions Section -->
+    </section><!-- /Cases Section -->
 
     <!-- Services Section -->
     <section id="services" class="services section light-background">
@@ -840,6 +779,52 @@
 
     </section><!-- /Testimonials Section -->
 
+    <!-- Get Started Section -->
+    <section id="get-started" class="get-started section">
+      <div class="container">
+        <div class="row justify-content-between gy-4">
+          <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
+            <div class="content">
+              <h3>Minus hic non reiciendis ea possimus at quia.</h3>
+              <p>Rem id rerum. Debitis deserunt quidem delectus expedita ducimus dolor. Aut iusto ipsa. Eos ipsum nobis ipsa soluta itaque perspiciatis fuga ipsum perspiciatis. Eum amet fugiat totam nisi possimus ut delectus dicta.
+              </p>
+              <p>Aliquam velit deserunt autem. Inventore et saepe. Tenetur suscipit eligendi labore culpa eos. Deserunt porro magni qui necessitatibus dolorem at animi cupiditate.</p>
+            </div>
+          </div>
+          <div class="col-lg-5" data-aos="zoom-out" data-aos-delay="200">
+            <form action="forms/quote.php" method="post" class="php-email-form">
+              <h3>Entre om contato conosco</h3>
+              <p>Vel nobis odio laboriosam et hic voluptatem. Inventore vitae totam. Rerum repellendus enim linead sero park flows.</p>
+              <div class="row gy-3">
+                <div class="col-12">
+                  <input type="text" name="name" class="form-control" placeholder="Name" required="">
+                </div>
+                <div class="col-12 ">
+                  <input type="email" class="form-control" name="email" placeholder="Email" required="">
+                </div>
+                <div class="col-12">
+                  <input type="text" class="form-control" name="phone" placeholder="Phone" required="">
+                </div>
+                <div class="col-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                </div>
+                <div class="col-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your quote request has been sent successfully. Thank you!</div>
+
+                  <button type="submit">Get a quote</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Quote Form -->
+
+        </div>
+
+      </div>
+    </section><!-- /Get Started Section -->
+
     <!-- Recent Blog Posts Section -->
     <section id="recent-blog-posts" class="recent-blog-posts section">
 
@@ -952,8 +937,8 @@
 
     </section><!-- /Recent Blog Posts Section -->
 
+  
   </main>
-
   <footer id="footer" class="footer dark-background">
 
     <div class="container footer-top">
@@ -1038,10 +1023,8 @@
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
   <!-- Preloader -->
   <div id="preloader"></div>
-
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
@@ -1051,10 +1034,8 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
 
 </body>
-
 </html>
