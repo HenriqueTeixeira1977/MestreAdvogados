@@ -87,7 +87,7 @@
     z-index: 997;
   }
   .header .logo img {
-    max-height: 38px;
+    max-height: 100px;
     margin-right: 8px;
   }
   .header .logo h1 {
