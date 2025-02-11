@@ -39,17 +39,17 @@
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center">
+      <a href="index.php" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
+        <img src="assets/img/logo.png" alt="">
         <h1 class="sitename">Mestre Advogados</h1> <span>.</span>
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="#" class="active">Home</a></li>
-          <li><a href="#services">Serviços</a></li>
-          <li class="dropdown"><a href="#alt-services"><span>Áreas Atendidas</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li class="dropdown"><a href="#services"><span>Áreas Atendidas</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="#">Serviço 1</a></li>
               <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -68,13 +68,15 @@
           </li>
           <li><a href="#cases">Casos</a></li>
           <li><a href="#projects">Projetos</a></li>
-          <li><a href="#blog">Blog</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#recent-blog-posts">Blog</a></li>
+          <li><a href="#about">Sobre Nós</a></li>
+          <li><a href="#get-started">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
     </div>
   </header>
+  
   <main class="main">
 
     <!-- Hero Section -->
@@ -211,7 +213,8 @@
 
     </section><!-- /Services Section -->
 
-    <!-- Alt Services Section -->
+<!-- Alt Services Section -->
+<!--
     <section id="alt-services" class="alt-services section">
       <div class="container">
 
@@ -228,38 +231,46 @@
                 <h4><a href="" class="stretched-link">Lorem Ipsum</a></h4>
                 <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
               </div>
-            </div><!-- End Icon Box -->
-
+            </div>
+-->
+            <!-- End Icon Box -->
+<!--
             <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
               <i class="bi bi-patch-check flex-shrink-0"></i>
               <div>
                 <h4><a href="" class="stretched-link">Nemo Enim</a></h4>
                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
               </div>
-            </div><!-- End Icon Box -->
-
+            </div>
+-->
+            <!-- End Icon Box -->
+<!--
             <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="500">
               <i class="bi bi-brightness-high flex-shrink-0"></i>
               <div>
                 <h4><a href="" class="stretched-link">Dine Pad</a></h4>
                 <p>Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
               </div>
-            </div><!-- End Icon Box -->
-
+            </div>
+-->    
+            <!-- End Icon Box -->
+<!--
             <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="600">
               <i class="bi bi-brightness-high flex-shrink-0"></i>
               <div>
                 <h4><a href="" class="stretched-link">Tride clov</a></h4>
                 <p>Est voluptatem labore deleniti quis a delectus et. Saepe dolorem libero sit non aspernatur odit amet. Et eligendi</p>
               </div>
-            </div><!-- End Icon Box -->
-
+            </div>
+-->    
+            <!-- End Icon Box -->
+<!--   
           </div>
         </div>
-
       </div>
-
-    </section><!-- /Alt Services Section -->
+    </section>  
+-->
+<!-- /Alt Services Section -->
 
     <!-- Cases Section -->
     <section id="cases" class="cases section">
@@ -777,53 +788,7 @@
       </div>
 
     </section><!-- /Testimonials Section -->
-
-    <!-- Get Started Section -->
-    <section id="get-started" class="get-started section">
-      <div class="container">
-        <div class="row justify-content-between gy-4">
-          <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
-            <div class="content">
-              <h3>Minus hic non reiciendis ea possimus at quia.</h3>
-              <p>Rem id rerum. Debitis deserunt quidem delectus expedita ducimus dolor. Aut iusto ipsa. Eos ipsum nobis ipsa soluta itaque perspiciatis fuga ipsum perspiciatis. Eum amet fugiat totam nisi possimus ut delectus dicta.
-              </p>
-              <p>Aliquam velit deserunt autem. Inventore et saepe. Tenetur suscipit eligendi labore culpa eos. Deserunt porro magni qui necessitatibus dolorem at animi cupiditate.</p>
-            </div>
-          </div>
-          <div class="col-lg-5" data-aos="zoom-out" data-aos-delay="200">
-            <form action="forms/quote.php" method="post" class="php-email-form">
-              <h3>Entre om contato conosco</h3>
-              <p>Vel nobis odio laboriosam et hic voluptatem. Inventore vitae totam. Rerum repellendus enim linead sero park flows.</p>
-              <div class="row gy-3">
-                <div class="col-12">
-                  <input type="text" name="name" class="form-control" placeholder="Name" required="">
-                </div>
-                <div class="col-12 ">
-                  <input type="email" class="form-control" name="email" placeholder="Email" required="">
-                </div>
-                <div class="col-12">
-                  <input type="text" class="form-control" name="phone" placeholder="Phone" required="">
-                </div>
-                <div class="col-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
-                </div>
-                <div class="col-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your quote request has been sent successfully. Thank you!</div>
-
-                  <button type="submit">Get a quote</button>
-                </div>
-
-              </div>
-            </form>
-          </div><!-- End Quote Form -->
-
-        </div>
-
-      </div>
-    </section><!-- /Get Started Section -->
-
+    
     <!-- Recent Blog Posts Section -->
     <section id="recent-blog-posts" class="recent-blog-posts section">
 
@@ -936,7 +901,101 @@
 
     </section><!-- /Recent Blog Posts Section -->
 
-  
+    <!-- Alt Services Section -->
+    <section id="about" class="alt-services section">
+      <div class="container">
+
+        <div class="row justify-content-around gy-4">
+          <div class="features-image col-lg-6" data-aos="fade-up" data-aos-delay="100"><img src="assets/img/alt-services.jpg" alt=""></div>
+
+          <div class="col-lg-5 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <h3>Enim quis est voluptatibus aliquid consequatur fugiat</h3>
+            <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi</p>
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-easel flex-shrink-0"></i>
+              <div>
+                <h4><a href="" class="stretched-link">Lorem Ipsum</a></h4>
+                <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+              </div>
+            </div><!-- End Icon Box -->
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-patch-check flex-shrink-0"></i>
+              <div>
+                <h4><a href="" class="stretched-link">Nemo Enim</a></h4>
+                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+              </div>
+            </div><!-- End Icon Box -->
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="500">
+              <i class="bi bi-brightness-high flex-shrink-0"></i>
+              <div>
+                <h4><a href="" class="stretched-link">Dine Pad</a></h4>
+                <p>Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
+              </div>
+            </div><!-- End Icon Box -->
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="600">
+              <i class="bi bi-brightness-high flex-shrink-0"></i>
+              <div>
+                <h4><a href="" class="stretched-link">Tride clov</a></h4>
+                <p>Est voluptatem labore deleniti quis a delectus et. Saepe dolorem libero sit non aspernatur odit amet. Et eligendi</p>
+              </div>
+            </div><!-- End Icon Box -->
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- /Alt Services Section -->
+
+    <!-- Get Started Section -->
+    <section id="get-started" class="get-started section">
+      <div class="container">
+        <div class="row justify-content-between gy-4">
+          <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
+            <div class="content">
+              <h3>Minus hic non reiciendis ea possimus at quia.</h3>
+              <p>Rem id rerum. Debitis deserunt quidem delectus expedita ducimus dolor. Aut iusto ipsa. Eos ipsum nobis ipsa soluta itaque perspiciatis fuga ipsum perspiciatis. Eum amet fugiat totam nisi possimus ut delectus dicta.
+              </p>
+              <p>Aliquam velit deserunt autem. Inventore et saepe. Tenetur suscipit eligendi labore culpa eos. Deserunt porro magni qui necessitatibus dolorem at animi cupiditate.</p>
+            </div>
+          </div>
+          <div class="col-lg-5" data-aos="zoom-out" data-aos-delay="200">
+            <form action="forms/quote.php" method="post" class="php-email-form">
+              <h3>Entre om contato conosco</h3>
+              <p>Vel nobis odio laboriosam et hic voluptatem. Inventore vitae totam. Rerum repellendus enim linead sero park flows.</p>
+              <div class="row gy-3">
+                <div class="col-12">
+                  <input type="text" name="name" class="form-control" placeholder="Name" required="">
+                </div>
+                <div class="col-12 ">
+                  <input type="email" class="form-control" name="email" placeholder="Email" required="">
+                </div>
+                <div class="col-12">
+                  <input type="text" class="form-control" name="phone" placeholder="Phone" required="">
+                </div>
+                <div class="col-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                </div>
+                <div class="col-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your quote request has been sent successfully. Thank you!</div>
+
+                  <button type="submit">Get a quote</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Quote Form -->
+
+        </div>
+
+      </div>
+    </section><!-- /Get Started Section -->
+ 
   </main>
   <footer id="footer" class="footer dark-background">
 
