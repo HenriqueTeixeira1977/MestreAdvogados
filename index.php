@@ -38,39 +38,53 @@
 
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-
-      <a href="index.php" class="logo d-flex align-items-center">
+      <div id="logotipo" class="logotipo">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <img src="assets/img/logo.png" alt="">
-        <h1 class="sitename">Mestre Advogados</h1> <span>.</span>
-      </a>
-
+        <div id="logo-img" class="logo-img">
+          <a href="index.php"><img src="assets/img/logo.png" alt=""></a>
+        </div>        
+        <div id="logo-txt" class="logo-txt">
+          <a href="index.php" class="titulo">Mestre</a>
+          <a href="index.php" class="slogan">Advogados Associados</a>
+        </div>
+      </div>
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="#" class="active">Home</a></li>
+          <li class="dropdown"><a href="#institucional"><span>Institucional</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Missão</a></li>
+              <li><a href="#">Visão</a></li>
+              <li><a href="#">Valores</a></li>
+            </ul>
+          </li>          
           <li class="dropdown"><a href="#services"><span>Áreas Atendidas</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="#">Serviço 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <li><a href="#">Direito Societário</a></li>
+              <li class="dropdown"><a href="#"><span>Direito Contratual</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
+                  <li><a href="#">Consultoria Jurídica</a></li>
+                  <li><a href="#">Contratos Comerciais</a></li>
+                  <li><a href="#">Contratos Imobiliários</a></li>
                 </ul>
               </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
+              <li><a href="#">Direito Tributário</a></li>
+              <li><a href="#">Direito Trabalhista</a></li>
+              <li><a href="#">Direito Civil</a></li>
+              <li><a href="#">Direito Comercial</a></li>
             </ul>
           </li>
-          <li><a href="#cases">Casos</a></li>
-          <li><a href="#projects">Projetos</a></li>
-          <li><a href="#recent-blog-posts">Blog</a></li>
+          
+          <li class="dropdown"><a href="#"><span>Seções</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#cases">Casos</a></li>
+              <li><a href="#projects">Projetos</a></li>
+              <li><a href="#recent-blog-posts">Blog</a></li>
+            </ul>
+          </li>
+
           <li><a href="#about">Sobre Nós</a></li>
-          <li><a href="#get-started">Contact</a></li>
+          <li><a href="#get-started">Contato</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -78,63 +92,55 @@
   </header>
   
   <main class="main">
-
-    <!-- Hero Section -->
+<!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
 
       <div class="info d-flex align-items-center">
         <div class="container">
           <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
             <div class="col-lg-6 text-center">
-              <h3>Somos a</h3>
-              <h2>Mestre Advogados Associados</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <h4>Somos a</h4>
+              <h2>Mestre</h2>
+              <h3>Advogados Associados</h3>
+              <p>Somos uma sociedade não só de advogados, mas também de colaboradores, clientes e parceiros.</p>
               <a href="#get-started" class="btn-get-started">Saiba Mais</a>
             </div>
           </div>
         </div>
-      </div>
-
+      </div>      
       <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
-
         <div class="carousel-item">
           <img src="assets/img/hero-carousel/hero-carousel-1.jpg" alt="">
         </div>
-
         <div class="carousel-item active">
           <img src="assets/img/hero-carousel/hero-carousel-2.jpg" alt="">
         </div>
-
         <div class="carousel-item">
           <img src="assets/img/hero-carousel/hero-carousel-3.jpg" alt="">
         </div>
-
         <div class="carousel-item">
           <img src="assets/img/hero-carousel/hero-carousel-4.jpg" alt="">
         </div>
-
         <div class="carousel-item">
           <img src="assets/img/hero-carousel/hero-carousel-5.jpg" alt="">
         </div>
-
         <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
           <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
         </a>
-
         <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
           <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
         </a>
-
       </div>
+      
+    </section>
+<!-- /Hero Section -->
 
-    </section><!-- /Hero Section -->
-
-    <!-- Services Section -->
+<!-- Services Section -->
     <section id="services" class="services section light-background">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Services</h2>
+        <h2>Áreas Atendidas</h2>
         <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
       </div><!-- End Section Title -->
 
@@ -145,20 +151,23 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="service-item  position-relative">
               <div class="icon">
-                <i class="fa-solid fa-mountain-city"></i>
+                <i class="fa-solid fa-building-columns" style="color: #52565e;"></i>
+                <!-- <i class="fa-solid fa-mountain-city"></i>  -->
               </div>
-              <h3>Nesciunt Mete</h3>
+              <h3>Direito Societário</h3>
               <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
               <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+              
             </div>
           </div><!-- End Service Item -->
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="service-item position-relative">
               <div class="icon">
-                <i class="fa-solid fa-arrow-up-from-ground-water"></i>
+                <i class="fa-solid fa-scale-balanced" style="color: #52565e;"></i>
+                <!--  <i class="fa-solid fa-arrow-up-from-ground-water"></i>  -->
               </div>
-              <h3>Eosle Commodi</h3>
+              <h3>Direito Contratual</h3>
               <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
               <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
             </div>
@@ -167,9 +176,10 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="service-item position-relative">
               <div class="icon">
-                <i class="fa-solid fa-compass-drafting"></i>
+                <i class="fa-solid fa-gavel" style="color: #52565e;"></i>
+                <!--  <i class="fa-solid fa-compass-drafting"></i>  -->
               </div>
-              <h3>Ledo Markt</h3>
+              <h3>Direito Tributário</h3>
               <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
               <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
             </div>
@@ -180,7 +190,7 @@
               <div class="icon">
                 <i class="fa-solid fa-trowel-bricks"></i>
               </div>
-              <h3>Asperiores Commodit</h3>
+              <h3>Direito Trabalhista</h3>
               <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
               <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
             </div>
@@ -191,7 +201,7 @@
               <div class="icon">
                 <i class="fa-solid fa-helmet-safety"></i>
               </div>
-              <h3>Velit Doloremque</h3>
+              <h3>Direito Civil</h3>
               <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
               <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
             </div>
@@ -202,7 +212,7 @@
               <div class="icon">
                 <i class="fa-solid fa-arrow-up-from-ground-water"></i>
               </div>
-              <h3>Dolori Architecto</h3>
+              <h3>Direito Comercial</h3>
               <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
               <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
             </div>
@@ -212,10 +222,11 @@
 
       </div>
 
-    </section><!-- /Services Section -->
+    </section>
+<!-- /Services Section -->
 
 <!-- Alt Services Section -->
-<!--
+
     <section id="alt-services" class="alt-services section">
       <div class="container">
 
@@ -233,9 +244,9 @@
                 <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
               </div>
             </div>
--->
+
             <!-- End Icon Box -->
-<!--
+
             <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
               <i class="bi bi-patch-check flex-shrink-0"></i>
               <div>
@@ -243,9 +254,8 @@
                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
               </div>
             </div>
--->
+
             <!-- End Icon Box -->
-<!--
             <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="500">
               <i class="bi bi-brightness-high flex-shrink-0"></i>
               <div>
@@ -253,9 +263,9 @@
                 <p>Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
               </div>
             </div>
--->    
+    
             <!-- End Icon Box -->
-<!--
+
             <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="600">
               <i class="bi bi-brightness-high flex-shrink-0"></i>
               <div>
@@ -263,17 +273,17 @@
                 <p>Est voluptatem labore deleniti quis a delectus et. Saepe dolorem libero sit non aspernatur odit amet. Et eligendi</p>
               </div>
             </div>
--->    
+    
             <!-- End Icon Box -->
-<!--   
+   
           </div>
         </div>
       </div>
     </section>  
--->
+
 <!-- /Alt Services Section -->
 
-    <!-- Cases Section -->
+<!-- Cases Section -->
     <section id="cases" class="cases section">
 
       <!-- Section Title -->
@@ -354,9 +364,10 @@
 
       </div>
 
-    </section><!-- /Cases Section -->
+    </section>
+<!-- /Cases Section -->
 
-    <!-- Features Section -->
+<!-- Features Section -->
     <section id="features" class="features section">
 
       <div class="container">
@@ -476,9 +487,10 @@
 
       </div>
 
-    </section><!-- /Features Section -->
+    </section>
+<!-- /Features Section -->
 
-    <!-- Projects Section -->
+<!-- Projects Section -->
     <section id="projects" class="projects section">
 
       <!-- Section Title -->
@@ -651,9 +663,10 @@
 
       </div>
 
-    </section><!-- /Projects Section -->
+    </section>
+<!-- /Projects Section -->
 
-    <!-- Testimonials Section -->
+<!-- Testimonials Section -->
     <section id="testimonials" class="testimonials section">
 
       <!-- Section Title -->
@@ -788,9 +801,10 @@
 
       </div>
 
-    </section><!-- /Testimonials Section -->
+    </section>
+<!-- /Testimonials Section -->
     
-    <!-- Recent Blog Posts Section -->
+<!-- Recent Blog Posts Section -->
     <section id="recent-blog-posts" class="recent-blog-posts section">
 
       <!-- Section Title -->
@@ -900,9 +914,10 @@
 
       </div>
 
-    </section><!-- /Recent Blog Posts Section -->
+    </section>
+<!-- /Recent Blog Posts Section -->
 
-    <!-- Alt Services Section -->
+<!-- About -->
     <section id="about" class="alt-services section">
       <div class="container">
 
@@ -949,9 +964,10 @@
         </div>
 
       </div>
-    </section><!-- /Alt Services Section -->
+    </section>
+<!-- /About -->
 
-    <!-- Get Started Section -->
+<!-- Get Started Section -->
     <section id="get-started" class="get-started section">
       <div class="container">
         <div class="row justify-content-between gy-4">
@@ -984,19 +1000,27 @@
                   <div class="loading">Loading</div>
                   <div class="error-message"></div>
                   <div class="sent-message">Your quote request has been sent successfully. Thank you!</div>
-
                   <button type="submit">Get a quote</button>
                 </div>
-
               </div>
             </form>
           </div><!-- End Quote Form -->
-
         </div>
-
       </div>
-    </section><!-- /Get Started Section -->
+
+    </section>
+<!-- /Get Started Section -->
  
+<!-- Google Maps -->
+    <section id="maps" class="maps">
+      <div id="google-maps" class="google-maps">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14692.72865596402!2d-47.01879627649885!3d-22.98032793431513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8cdae4615afb3%3A0xcf877842be275db2!2sMestre%20Advogados%20Associados!5e0!3m2!1spt-BR!2sbr!4v1739336995731!5m2!1spt-BR!2sbr" width="1920" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </section>
+ <!-- /Google Maps -->
+  
   </main>
   <footer id="footer" class="footer dark-background">
 
@@ -1004,7 +1028,7 @@
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">UpConstruction</span>
+            <span class="sitename">Mestre Advogados</span>
           </a>
           <div class="footer-contact pt-3">
             <p>A108 Adam Street</p>
