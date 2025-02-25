@@ -41,8 +41,7 @@
         section h1{
             color: blue;
         }
-    </style>
-    
+    </style>    
 </head>
 
 <body>

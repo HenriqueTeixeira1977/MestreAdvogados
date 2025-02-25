@@ -77,7 +77,7 @@
 # Global Header
 --------------------------------------------------------------*/
 .header {
-    --background-color: rgb(41, 41, 41);
+    --background-color: rgba(0, 0, 0, 0);
     --default-color: #ffffff;
     --heading-color: #ffffff;
     color: var(--default-color);

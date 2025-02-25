@@ -1,0 +1,126 @@
+html, body {
+    color: var(--default-color);
+    background-color: rgba(255, 0, 0, 0);
+    font-family: var(--default-font);
+}
+.topo{
+width: 100%;
+min-height: 100vh;
+position: relative;
+padding: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+overflow: hidden;
+
+}
+/*
+.topo{background-color: rgba(219, 219, 219, 0.278);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}/*
+.topo .topo-bg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: color-mix(in srgb, black, transparent 100%);
+    z-index: -9999;
+    position: absolute;
+    overflow: hidden;
+    transition-duration: 0.4s;
+}*/
+.topo .topo-logo img{
+    max-width: 100px;
+}
+.topo .topo-txt{background-color: rgba(0, 30, 255, 0);
+    max-width: 50%;
+    text-align: center;
+    color: rgb(44, 44, 44);
+}
+.topo .topo-btn a{background-color: #ffd90000;
+    padding: 10px 50px;     
+    border: 2px solid #FFD700;
+    border-radius: 5px;
+    color: black;
+}
+.topo .topo-btn a:hover{
+    background-color: #FFD700;
+    border: black 1px solid;
+    transition: 0.3s;
+}
+/*  **************  CAROUSEL  **************  */
+
+.topo .topo-bg .carousel {
+    inset: 0;
+    position: absolute;
+    overflow: hidden;
+  }
+  .topo .topo-bg .carousel .carousel-item {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    transition-duration: 0.4s;
+  }
+  .topo .topo-bg .carousel .carousel-item img {
+    position: absolute;
+    inset: 0;
+    display: block;
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .topo .topo-bg .carousel .carousel-item::before {
+    content: "";
+    background-color: color-mix(in srgb, var(--background-color), transparent 30%);
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+  }
+  .topo .topo-bg .carousel .carousel-control-prev {
+    justify-content: start;
+  }
+  @media (min-width: 640px) {
+    .topo .carousel .carousel-control-prev {
+      padding-left: 15px;
+    }
+  }
+    .topo .carousel .carousel-control-next {
+    justify-content: end;
+  }
+  @media (min-width: 640px) {
+    .topo .carousel .carousel-control-next {
+      padding-right: 15px;
+    }
+  }
+  .topo .carousel .carousel-control-next-icon,
+  .topo .carousel .carousel-control-prev-icon {
+    background: none;
+    font-size: 26px;
+    line-height: 0;
+    background: color-mix(in srgb, var(--default-color), transparent 80%);
+    color: color-mix(in srgb, var(--default-color), transparent 40%);
+    border-radius: 50px;
+    width: 54px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .topo .carousel .carousel-control-prev,
+  .topo .carousel .carousel-control-next {
+    z-index: 3;
+    transition: 0.3s;
+  }
+  .topo .carousel .carousel-control-prev:focus,
+  .topo .carousel .carousel-control-next:focus {
+    opacity: 0.5;
+  }
+  
